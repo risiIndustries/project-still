@@ -1,0 +1,8 @@
+[fragile]
+name=Copr repo for risiOS
+baseurl=https://copr-be.cloud.fedoraproject.org/results/risi/fragile/fedora-rawhide-$basearch/
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://copr-be.cloud.fedoraproject.org/results/risi/fragile/pubkey.gpg
+enabled=1
+priority=50

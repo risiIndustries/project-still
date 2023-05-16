@@ -1,0 +1,41 @@
+include: fedora-silverblue.yaml
+ref: risiIndustries/fragile/${basearch}/still
+
+packages:
+  - adw-gtk-theme
+  - gnome-backgrounds
+  - plymouth-theme-risi-spinner
+  - risi-settings
+  - risi-script
+  - risi-tweaks
+  - risi-welcome
+  - risi-zsh-plugins
+  - risios-release
+  - risios-logos
+  - risios-repositories
+  - risios-backgrounds-38
+  - risios-bookmarks
+  - webapp-manager
+  - risios-meta
+  - rtheme-lib
+  - rtheme-d
+  - rtheme-plugin-gtk3
+  - rtheme-plugin-gtk4
+  - rtheme-plugin-gnome-shell
+  - file-roller
+  - timeshift
+
+exclude-packages:
+  - abrt-desktop
+  - gnome-tour
+  - rhythmbox
+  - mediawriter
+  - gnome-boxes
+  - cheese
+  - libreoffice*
+  - unoconv
+  - gnome-extensions-app
+  - systemd-networkd
+
+repos:
+  - fragile
